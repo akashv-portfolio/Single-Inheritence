@@ -1,0 +1,20 @@
+public class main{
+    public static void main(String[] args){
+        student s= new student();
+        s.clgname();
+        s.stdname();
+    }
+}
+
+class college{
+    void clgname(){
+        System.out.println("Vel Tech Multi Tech ");
+    }
+}
+
+class student extends college{
+    void stdname(){
+        System.out.println("Akash");
+    }
+}
+
